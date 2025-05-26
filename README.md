@@ -104,20 +104,6 @@ Before running the application, ensure you have:
    uv add crewai crewai-tools markitdown qdrant-client fastembed
    ```
 
-## 🎮 Running the Application
-
-Choose your preferred LLM model:
-
-- **For deep-seek-r1**:
-  ```bash
-  streamlit run app_deep_seek.py
-  ```
-
-- **For llama 3.2**:
-  ```bash
-  streamlit run app_llama3.2.py
-  ```
-
 ## 🛠️ System Architecture
 
 The system consists of two main agents:
@@ -144,15 +130,6 @@ The system consists of two main agents:
    - Seamlessly switches to web search
    - Combines information from multiple sources
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
