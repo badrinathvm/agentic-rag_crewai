@@ -1,0 +1,19 @@
+retrieval_task:
+  description: >
+    Retrieve the most relevant information from available sources for the user query: {query}, 
+  expected_output: >
+    A list of documents that are most relevant to the user query: {query}
+  agents: retriever_agent
+
+response_task:
+  description: >
+    Synthesize the final response for the user quert: {query}
+  expected_output: >
+    A concise and coherent response based on the retrieved infromation from the right source for the user query: {query}. If you are not ble to retrieve the information then respond with "I'm sorry, I couldn't find the information you're looking for."
+  agents: response_synthesizer_agent
+
+
+
+
+
+   
